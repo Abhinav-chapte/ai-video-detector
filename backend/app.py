@@ -14,7 +14,7 @@ import time
 from advanced_detector import AdvancedAIDetector
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["*"], supports_credentials=True)
 
 # Configuration
 UPLOAD_FOLDER = 'uploads'
