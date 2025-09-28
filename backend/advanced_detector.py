@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import os
 import logging
-from scipy.spatial import distance
+#  from scipy.spatial import distance
 import time
 
 # Configure logging
